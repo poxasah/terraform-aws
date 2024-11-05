@@ -16,10 +16,8 @@ Este projeto configura um ambiente de teste na Amazon utilizando Terraform, com 
 
 - **modules/**: Diretório que contém o módulo reutilizável.
   - **aws_keyspaces/**: Módulo que configura recursos do Amazon Keyspaces.
-    - `iam.tf`: Configura políticas IAM necessárias para o Keyspaces.
     - `keyspaces.tf`: Define o Keyspace e tabelas no Amazon Keyspaces.
     - `variables.tf`: Declara as variáveis utilizadas pelo módulo.
-    - `vpc_endpoint.tf`: Configura o VPC Endpoint para o Keyspaces.
 
 ## Pré-requisitos
 
